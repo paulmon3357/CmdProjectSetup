@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>CmdProjectSetup</Text>
+    <Description>Setup levels, views and sheets</Description>
+    <Assembly>CmdProjectSetup.dll</Assembly>
+    <FullClassName>CmdProjectSetup.Command</FullClassName>
+    <ClientId>32CF4DBB-4A6A-44FA-A053-6B2571E888B6</ClientId>
+    <VendorId>Mon Inc.</VendorId>
+    <VendorDescription>Mon Inc.</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CmdProjectSetup</Name>
+    <Assembly>CmdProjectSetup.dll</Assembly>
+    <FullClassName>CmdProjectSetup.App</FullClassName>
+    <ClientId>2551A336-58CF-4E8E-AC90-88574913B06C</ClientId>
+    <VendorId>Mon Inc.</VendorId>
+    <VendorDescription>Mon Inc.</VendorDescription>
+  </AddIn>
+</RevitAddIns>
